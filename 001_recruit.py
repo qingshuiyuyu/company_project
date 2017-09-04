@@ -59,12 +59,13 @@ class Databases(object):
 
 #新抓取数据查询
 def new_company_sql():
-    sql = "SELECT %s FROM `zp_lagou_company_full` WHERE `status`=0"
-    params = ('zj')
+    sql = "SELECT * FROM `zp_lagou_company_full` WHERE `status`=%s"
+    params = ('0')
     result = {}
     result['sql'] = sql
     result['params'] = params
     return result
+
 #改变数据新抓取数据库状态码
 def change_company_sql(zj):
     sql = "update zp_lagou_company_full set status=1 where zj=%s"
@@ -73,6 +74,7 @@ def change_company_sql(zj):
     result['sql'] = sql
     result['params'] = params
     return result
+
 #查询是否已经挂接
 def rel_recruit(relationid,resource):
     sql = "select %s from `rel_recruit_pre` WHERE relationid=%s"
@@ -81,10 +83,42 @@ def rel_recruit(relationid,resource):
     result['sql'] = sql
     result['params'] = params
     return result
-#插入已经挂接数据
-def insert_data():
-    pass
 
+#插入已经挂接数据
+def insert_data(item):
+    sql = """
+    insert into t_recruit (
+            corpid,
+            position,
+            provinceid,
+            provincename,
+            address,
+            salary,
+            publishtime,
+            education,
+            experience,
+            language,
+            age,
+            department,
+            major,
+            report,
+            subordinates,
+            jobdescription,
+            corpintroduction,
+            createtime,
+            creatorid,
+            updatetime,
+            updatorid
+            )
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+    """
+    params = (
+
+    )
+    result = {}
+    result['sql'] = sql
+    result['params'] = params
+    return result
 
 
 
@@ -92,8 +126,17 @@ def insert_data():
 
 def main():
     database = Databases('localhost',3306,'scrapy','root','mysql')
+    while 1:
+        new_company_data = new_company_sql()
+        new_company_result = database.select(new_company_data['sql'],new_company_data['params'])
+        if new_company_result != None:
+            print new_company_result
+            pisitionid = new_company_result['zj']
+        else:
+            print '无查询结果!'
+            break
 
 
 
 if __name__ == '__main__':
-    pass
+    main()
