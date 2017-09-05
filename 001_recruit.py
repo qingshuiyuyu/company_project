@@ -79,7 +79,7 @@ def insert_51jobs(item,crop_id,companyinfo):
         """
 
     params = (
-        str(uuid.uuid1()).replace('-','').upper(),#职位的uuid
+        item['uuid'].upper,#职位的uuid
         crop_id,#挂接的名字
         item['jobname'],#职位名字
         None,
@@ -155,18 +155,19 @@ def Lagou():
                 is_insert = database.excute(insert_datas['sql'],insert_datas['params'])
                 if is_insert == 'ok':
                     print '新插入t_recruit成功'
-
-            time.sleep(0.3)
         else:
             print '无查询结果!插入完毕!'
             break
 
 
 def Jobs51():
+    num = 0
     database = Databases('localhost',3306,'scrapy','root','mysql')
     while 1:
         new_51company_data = new_51company()
         new_51company_result = database.select(new_51company_data['sql'],new_51company_data['params'])
+        print '---正在处理第'+str(num)+'信息---'
+        num+=1
         if new_51company_result != None:
             positionid = new_51company_result.get('id')
             companyname = new_51company_result.get("name")
@@ -213,12 +214,13 @@ def Jobs51():
                     insert_51jobs_data = insert_51jobs(each,companyid,new_51company_result)
                     insert_51jobs_result = database.excute(insert_51jobs_data['sql'],insert_51jobs_data['params'])
                     if insert_51jobs_result == 'ok':
-                        print '新插入一条！'
+                        print '新插入一个t_recruit'
         else:
             print '已经处理完毕,数据库中无未处理数据'
+            break
 
 
 
 if __name__ == '__main__':
     Lagou()
-    # Jobs51()
+    Jobs51()
