@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed631d3a-574f-4c30-81e0-243e9a578749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/001_recruit.py" afterPath="$PROJECT_DIR$/001_recruit.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,24 +12,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/company_project$001_recruit.coverage" NAME="001_recruit Coverage Results" MODIFIED="1504610954194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/company_project$001_recruit.coverage" NAME="001_recruit Coverage Results" MODIFIED="1504614669716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="001_recruit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001_recruit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="216" column="45" lean-forward="false" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
+            <state relative-caret-position="137">
+              <caret line="209" column="27" lean-forward="false" selection-start-line="209" selection-start-column="27" selection-end-line="209" selection-end-column="27" />
               <folding>
                 <element signature="e#48#62#0" expanded="true" />
-                <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-                <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-                <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-                <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-                <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-                <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-                <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+                <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+                <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+                <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+                <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+                <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+                <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+                <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+                <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
               </folding>
             </state>
           </provider>
@@ -39,15 +39,15 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3384">
+            <state relative-caret-position="271">
               <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
               <folding>
                 <element signature="e#48#62#0" expanded="true" />
-                <marker date="1504602473066" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
-                <marker date="1504602473066" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
-                <marker date="1504602473066" expanded="true" signature="2330:2384" ph="update zp_la... " />
-                <marker date="1504602473066" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
-                <marker date="1504602473066" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
+                <marker date="1504611421928" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
+                <marker date="1504611421928" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
+                <marker date="1504611421928" expanded="true" signature="2330:2384" ph="update zp_la... " />
+                <marker date="1504611421928" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
+                <marker date="1504611421928" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
               </folding>
             </state>
           </provider>
@@ -193,7 +193,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55291003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -212,7 +212,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -222,13 +224,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -239,11 +242,11 @@
           <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504602473066" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
-            <marker date="1504602473066" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
-            <marker date="1504602473066" expanded="true" signature="2330:2384" ph="update zp_la... " />
-            <marker date="1504602473066" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
-            <marker date="1504602473066" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
+            <marker date="1504611421928" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
+            <marker date="1504611421928" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
+            <marker date="1504611421928" expanded="true" signature="2330:2384" ph="update zp_la... " />
+            <marker date="1504611421928" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
+            <marker date="1504611421928" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -254,13 +257,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -271,11 +275,11 @@
           <caret line="112" column="25" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="25" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504602473066" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
-            <marker date="1504602473066" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
-            <marker date="1504602473066" expanded="true" signature="2330:2384" ph="update zp_la... " />
-            <marker date="1504602473066" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
-            <marker date="1504602473066" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
+            <marker date="1504611421928" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
+            <marker date="1504611421928" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
+            <marker date="1504611421928" expanded="true" signature="2330:2384" ph="update zp_la... " />
+            <marker date="1504611421928" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
+            <marker date="1504611421928" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -286,13 +290,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -303,13 +308,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -320,13 +326,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -337,13 +344,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
@@ -364,32 +372,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3384">
+        <state relative-caret-position="271">
           <caret line="144" column="29" lean-forward="false" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504602473066" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
-            <marker date="1504602473066" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
-            <marker date="1504602473066" expanded="true" signature="2330:2384" ph="update zp_la... " />
-            <marker date="1504602473066" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
-            <marker date="1504602473066" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
+            <marker date="1504611421928" expanded="true" signature="1877:1932" ph="SELECT * FRO... zp_lagou_company_full" />
+            <marker date="1504611421928" expanded="true" signature="2098:2152" ph="select * fro... zp_lagou_job_source" />
+            <marker date="1504611421928" expanded="true" signature="2330:2384" ph="update zp_la... " />
+            <marker date="1504611421928" expanded="true" signature="2548:2607" ph="select compa... rel_recruit_pre" />
+            <marker date="1504611421928" expanded="true" signature="2793:3417" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001_recruit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="216" column="45" lean-forward="false" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
+        <state relative-caret-position="137">
+          <caret line="209" column="27" lean-forward="false" selection-start-line="209" selection-start-column="27" selection-end-line="209" selection-end-column="27" />
           <folding>
             <element signature="e#48#62#0" expanded="true" />
-            <marker date="1504610949963" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
-            <marker date="1504610949963" expanded="true" signature="368:427" ph="select compa... rel_recruit_pre" />
-            <marker date="1504610949963" expanded="true" signature="584:609" ph="select name " />
-            <marker date="1504610949963" expanded="true" signature="584:656" ph="select name zp_lagou_company_full" />
-            <marker date="1504610949963" expanded="true" signature="850:904" ph="update zp_51... " />
-            <marker date="1504610949963" expanded="true" signature="1066:1118" ph="select * fro... zp_51job_job_full" />
-            <marker date="1504610949963" expanded="true" signature="1301:2021" ph="insert into t_recruit... " />
+            <marker date="1504614664281" expanded="true" signature="160:215" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="160:225" ph="select * fro... zp_51job_company_full" />
+            <marker date="1504614664281" expanded="true" signature="378:437" ph="select compa... rel_recruit_pre" />
+            <marker date="1504614664281" expanded="true" signature="594:619" ph="select name " />
+            <marker date="1504614664281" expanded="true" signature="594:666" ph="select name zp_lagou_company_full" />
+            <marker date="1504614664281" expanded="true" signature="860:914" ph="update zp_51... " />
+            <marker date="1504614664281" expanded="true" signature="1076:1128" ph="select * fro... zp_51job_job_full" />
+            <marker date="1504614664281" expanded="true" signature="1311:2031" ph="insert into t_recruit... " />
           </folding>
         </state>
       </provider>

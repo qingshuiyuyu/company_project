@@ -9,7 +9,7 @@ from models import *
 
 
 def new_51company():
-    sql = """select * from `zp_51job_company_full` where status = %s"""
+    sql = """select * from `zp_51job_company_full` where status = %s limit 0,5"""
     params = ('0')
     result = {}
     result['sql'] = sql
@@ -79,7 +79,7 @@ def insert_51jobs(item,crop_id,companyinfo):
         """
 
     params = (
-        item['uuid'].upper,#职位的uuid
+        item['uuid'],#职位的uuid
         crop_id,#挂接的名字
         item['jobname'],#职位名字
         None,
@@ -209,12 +209,12 @@ def Jobs51():
             companyid = rel_51recruit_result.get("companyid")
             print companyid
 
-            if new_51jobs_result != None:
+            if new_51jobs_result != []:
                 for each in new_51jobs_result:
                     insert_51jobs_data = insert_51jobs(each,companyid,new_51company_result)
                     insert_51jobs_result = database.excute(insert_51jobs_data['sql'],insert_51jobs_data['params'])
                     if insert_51jobs_result == 'ok':
-                        print '新插入一个t_recruit'
+                        print '已经新插入一条数据'
         else:
             print '已经处理完毕,数据库中无未处理数据'
             break
